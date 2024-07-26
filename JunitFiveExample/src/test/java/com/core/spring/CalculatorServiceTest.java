@@ -33,4 +33,9 @@ public class CalculatorServiceTest {
         Assertions.assertEquals(result,expected);
         System.out.println("addTwoString method called");
     }
+
+    @Before
+    public void cleanUp(){
+        System.out.println(" preform for clean up Activity");
+    }
 }
